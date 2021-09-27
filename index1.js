@@ -98,21 +98,47 @@ if (random === 6) {
 
 // bonus 2 : 
 
-var month = "January"
+var month = "january"
+month = "october"
+month = "April"
 
 switch (month) {
-    case "January":
-        console.log("winter")
+    case "january":
+        console.log("Winter")
         break
-
-    case "may":
-        console.log("spring")
+    case "february":
+        console.log("Winter")
         break
-
-    case "obctober":
-        console.log("autumn")
+    case "march":
+        console.log("Spring")
         break
-
+    case "april":
+        console.log("Spring")
+        break
+    case "May":
+        console.log("Spring")
+        break
+    case "june":
+        console.log("Summer")
+        break
+    case "july":
+        console.log("Summer")
+        break
+    case "august":
+        console.log("Summer")
+        break
+    case "september":
+        console.log("fall")
+        break
+    case "october":
+        console.log("fall")
+        break
+    case "november":
+        console.log("fall")
+        break
+    case "december":
+        console.log("Winter")
+        break
     default:
         console.log("Novembre")
 }
